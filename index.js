@@ -31,7 +31,7 @@ do {
         num1 = parseFloat(prompt('SUMA\nIngrese el primer numero'))
         num2 = parseFloat(prompt('SUMA\nIngrese el segundo numero'))
 
-        alert(num1 + ' + ' + num2 + ' = ' + Suma(num1, num2))
+        alert(num1 + ' + ' + num2 + ' = ' + Suma(num1, num2).toFixed(2))
     }
     else if (menu == 2) {
         vali = 0
@@ -39,7 +39,7 @@ do {
         num1 = parseFloat(prompt('RESTA\nIngrese el primer numero'))
         num2 = parseFloat(prompt('RESTA\nIngrese el segundo numero'))
 
-        alert(num1 + ' - ' + num2 + ' = ' + Resta(num1, num2))
+        alert(num1 + ' - ' + num2 + ' = ' + Resta(num1, num2).toFixed(2))
     }
     else if (menu == 3) {
         vali = 0
@@ -47,7 +47,7 @@ do {
         num1 = parseFloat(prompt('MULTIPLICACION\nIngrese el primer numero'))
         num2 = parseFloat(prompt('MULTIPLICACION\nIngrese el segundo numero'))
 
-        alert(num1 + ' * ' + num2 + ' = ' + Multiplicacion(num1, num2))
+        alert(num1 + ' * ' + num2 + ' = ' + Multiplicacion(num1, num2).toFixed(2))
     }
     else if (menu == 4) {
         vali = 0
@@ -55,7 +55,7 @@ do {
         num1 = parseFloat(prompt('DIVISION\nIngrese el primer numero'))
         num2 = parseFloat(prompt('DIVISION\nIngrese el segundo numero'))
 
-        alert(num1 + ' / ' + num2 + ' = ' + Division(num1, num2))
+        alert(num1 + ' / ' + num2 + ' = ' + Division(num1, num2).toFixed(2))
     }
     else if (menu == 5) {
         vali = 1
